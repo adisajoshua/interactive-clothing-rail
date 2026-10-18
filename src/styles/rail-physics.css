@@ -1,0 +1,35 @@
+﻿/* 
+  Physical fabric breeze and 3D perspective animations
+  for Interactive Clothing Rail 
+*/
+
+@keyframes clothBreeze {
+  0% {
+    transform: rotateZ(0deg) skewX(0deg);
+  }
+  25% {
+    transform: rotateZ(3.2deg) skewX(-2deg);
+  }
+  50% {
+    transform: rotateZ(-2.2deg) skewX(1.4deg);
+  }
+  75% {
+    transform: rotateZ(1deg) skewX(-0.6deg);
+  }
+  100% {
+    transform: rotateZ(0deg) skewX(0deg);
+  }
+}
+
+.animate-cloth-breeze {
+  animation: clothBreeze 0.65s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  transform-origin: 50% 10px;
+}
+
+/* Chrome DevTools / Mobile Touch Optimization */
+.rail-no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}

@@ -1,0 +1,23 @@
+﻿{
+  "name": "interactive-clothing-rail",
+  "version": "1.0.0",
+  "description": "Interactive 3D retail clothing rail slider with physical push math, Web Audio friction, and 3D hanger flip transitions.",
+  "main": "src/components/ClothingRail.tsx",
+  "keywords": [
+    "clothing-rail",
+    "clothing-rack",
+    "3d-slider",
+    "fashion-ecommerce",
+    "web-audio",
+    "antigravity-skill",
+    "react",
+    "tailwind"
+  ],
+  "author": "Antigravity Engineer",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0",
+    "lucide-react": "^0.300.0"
+  }
+}
