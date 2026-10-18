@@ -5,6 +5,10 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6.svg?logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4+-38B2AC.svg?logo=tailwind-css)](https://tailwindcss.com/)
 
+<p align="center">
+  <img src="og-image.png" alt="Interactive 3D Retail Clothing Rail Engine" width="100%" />
+</p>
+
 A hyper-realistic, physics-driven 3D interactive clothing rail for modern e-commerce drops and virtual showrooms. Inspired by luxury retail drops (such as Higgsfield's viral *"Off the Rail"* drop).
 
 ---
